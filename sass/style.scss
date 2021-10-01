@@ -1,2 +1,17 @@
-@import './utils/_variables'
+@import './utils/_variables';
+@import './utils/mixin';
+@import './utils/mediaqueries';
+@import './utils/loop';
+@import './utils/loading';
+@import './utils/hearts';
+@import './utils/animationmenu';
 
+@import './pages/index';
+@import './pages/menu';
+
+@import './layout/footer';
+@import './layout/header';
+
+@import './composants/buttons';
+
+@import './bases/base';

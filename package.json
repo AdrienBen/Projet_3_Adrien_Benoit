@@ -1,0 +1,21 @@
+{
+  "name": "projet3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch sass:css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrienBen/Projet_3_Adrien_Benoit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrienBen/Projet_3_Adrien_Benoit/issues"
+  },
+  "homepage": "https://github.com/AdrienBen/Projet_3_Adrien_Benoit#readme"
+}

@@ -1,0 +1,33 @@
+.footer {
+    background-color: #353535;
+    padding-bottom: 10px;
+
+    &_logo {
+        width: 120px;
+        color: white;
+        padding-left: 40px;
+        padding-top: 2px;
+        font-size: 17px;
+        font-family: shrikhand, "cursive";
+    }
+
+    & p {
+        margin: 0px;
+        padding-top: 16px;
+    }
+
+    & li {
+        padding-bottom: 8px;
+        width: fit-content;
+        cursor: pointer;
+        
+    }
+
+    & a, a:visited, a:link {
+        color: white;
+    }
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
