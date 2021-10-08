@@ -4,3 +4,24 @@
     align-items: center;
     text-align: center;
 }
+
+@mixin row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+@mixin end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@mixin space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

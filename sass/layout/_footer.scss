@@ -20,7 +20,7 @@
         padding-bottom: 8px;
         width: fit-content;
         cursor: pointer;
-        
+        list-style: none;
     }
 
     & a, a:visited, a:link {
@@ -30,4 +30,10 @@
     &:hover {
         text-decoration: underline;
     }
+
+    &__icon {
+        padding-right: 10px;
+    }
 }
+
+

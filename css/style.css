@@ -1,3 +1,205 @@
+.fonction {
+  display: flex;
+  flex-direction: column;
+}
+.fonction h2 {
+  text-align: left;
+  padding-left: 10px;
+}
+.fonction__box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: #f0efef;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+  height: 40px;
+  border: rgba(235, 232, 232, 0) solid 1px;
+  box-shadow: 0px 0px 10px rgba(131, 129, 129, 0.452);
+  padding: 10px;
+}
+.fonction__box:hover {
+  background-color: #9256dc46;
+  transition: 0.4s;
+}
+.fonction__box:hover i {
+  color: #9356DC;
+}
+.fonction__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #9356DC;
+  color: white;
+  margin-left: -20px;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  border-radius: 200px;
+}
+.fonction p {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: bolder;
+}
+.fonction p {
+  padding-left: 10px;
+  color: gray;
+}
+
+#restaurants {
+  background-color: #ebe6e66b;
+}
+
+.restaurants__title {
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+.restaurants-container {
+  margin: 10px 0px 10px 0;
+}
+.restaurants-container__box {
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(131, 129, 129, 0.452);
+  border-radius: 15px;
+  margin-bottom: 30px;
+  height: 240px;
+}
+.restaurants-container__box:hover {
+  box-shadow: 0px 0px 8px #9356DC;
+  transform: scale(1);
+}
+.restaurants-container__start {
+  display: flex;
+  justify-content: flex-end;
+}
+.restaurants-container__start img {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  border-radius: 15px 15px 0px 0px;
+}
+.restaurants-container__start span {
+  position: absolute;
+  color: rgba(0, 31, 0, 0.575);
+  font-weight: bold;
+  margin: 20px;
+  font-size: 19px;
+  padding: 4px;
+  background-color: #99E2D0;
+}
+.restaurants-container__end {
+  display: flex;
+  justify-content: space-between;
+}
+.restaurants-container__desc {
+  padding-right: 10px;
+}
+.restaurants-container__desc h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.restaurants-container__desc p {
+  font-size: 18px;
+  margin-top: -10px;
+  padding-left: 10;
+}
+
+.menu-principal {
+  background-color: #faf4f4;
+}
+.menu-principal_img {
+  width: 100%;
+}
+.menu-principal_img img {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+.menu-principal_container {
+  position: relative;
+  margin-top: -80px;
+  width: 100%;
+  border-radius: 40px 40px 0px 0px;
+  background-color: #faf4f4;
+}
+.menu-principal_title {
+  display: flex;
+  justify-content: space-between;
+  font-family: shrikhand, "cursive";
+  margin-left: 20px;
+}
+
+.menus {
+  margin: 0px 0px 20px 15px;
+  padding-bottom: 30px;
+}
+
+.menu h3 {
+  border-bottom: #99E2D0 solid 5px;
+  width: 50px;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.menu-block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  box-shadow: 0px 0px 10px rgba(131, 129, 129, 0.452);
+  overflow: hidden;
+}
+.menu-block_left {
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.menu-block_under {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: -15px;
+}
+.menu-block h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 15px;
+}
+.menu-block_right {
+  display: flex;
+  margin-right: -60px;
+}
+.menu-block_price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 0px 10px 0px 20px;
+}
+.menu-block_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #99E2D0;
+  color: white;
+  height: 85px;
+  width: 60px;
+  border-radius: 0px 20px 20px 0px;
+  font-size: 25px;
+}
+
 .footer {
   background-color: #353535;
   padding-bottom: 10px;
@@ -18,12 +220,16 @@
   padding-bottom: 8px;
   width: fit-content;
   cursor: pointer;
+  list-style: none;
 }
 .footer a, .footer a:visited, .footer a:link {
   color: white;
 }
 .footer:hover {
   text-decoration: underline;
+}
+.footer__icon {
+  padding-right: 10px;
 }
 
 .header-index__logo {
