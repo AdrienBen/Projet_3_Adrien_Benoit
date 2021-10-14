@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    & a, a:link, a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+    font-family: roboto;
+
+    & ul {
+        list-style: none;
+        width: fit-content;
+    }
+}

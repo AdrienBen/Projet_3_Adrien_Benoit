@@ -1,0 +1,52 @@
+.hearts {
+    margin-right: 75px;
+    margin-top: 25px;
+
+    &_full {
+        position: absolute;
+        font-size: 30px;
+        background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(to right, $primary, $secondary);
+        -webkit-background-clip: text;
+        clip-path: circle(0%);
+    }
+
+    &_empty {
+        position: absolute;
+        font-size: 30px;
+        color: rgba(24, 23, 23, 0.670);
+    }
+
+    &:hover &_full {
+        animation: heart-appear 600ms ease-in-out;
+        animation-fill-mode: forwards;
+    }
+
+    &:hover &_empty {
+        animation: heart-disappear 600ms ease-in-out;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes heart-appear {
+    0% {
+        clip-path: circle(0%);
+    }
+
+    100% {
+        visibility: visible;
+        clip-path: circle(100%);
+    }
+}
+
+@keyframes heart-disappear {
+    0% {
+        clip-path: 0%;
+    }
+
+    100% {
+        visibility: visible;
+        clip-path: circle(100%);
+    }
+}

@@ -1,0 +1,67 @@
+.loadingbg {
+    background-color: white;
+    animation: bg ease-in-out 3s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    visibility: hidden;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border: 10px solid #f3f3f3;
+    border-left-color: $primary;
+    border-right-color: $secondary;
+    border-radius: 200px;
+    animation: spin 3s ease-in-out;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+}
+
+@keyframes bg {
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        appearance: none;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    25% {
+        transform: rotate(360deg);
+    }
+
+    50% {
+        transform: rotate(720deg);
+    }
+
+    75% {
+        transform: rotate(1040);
+    }
+
+    100% {
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+}
