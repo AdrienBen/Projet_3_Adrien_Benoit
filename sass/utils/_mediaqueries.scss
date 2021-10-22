@@ -32,11 +32,10 @@
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         column-gap: 30px;
-        padding-left: 70px;
-        padding-right: 10px;
+        padding : 0px 30px;
 
         &__box {
-            width: 420px;
+            /* width: 420px; */
             min-width: 1%;
 
             p {
@@ -66,8 +65,7 @@
     }
 
     .menu-principal_container {
-        width: 98%;
-        margin-left: 10px;
+        width: 98%; 
         margin-top: -25px;
     }
 

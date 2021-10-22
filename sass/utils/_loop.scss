@@ -6,7 +6,7 @@ $column-anim-duration: ($anim-delay * $menu-items); /*Temps d'animation par colo
 .menu {
   @for $i from 1 through $menu-categories {  /*Pour chaque catégories*/
     &:nth-child(#{$i}) {  
-      .menu-bloc { 
+      .menu-block { 
         @for $j from 1 through $menu-items { /*Pour */
           &:nth-child(#{$j}) {
             $column-offset: $i - 1; /*Child -1*/
