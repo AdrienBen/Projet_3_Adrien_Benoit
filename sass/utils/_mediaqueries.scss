@@ -1,7 +1,9 @@
 @media screen and (min-width: 1000px) {
 
     .fonction {
-        @include center; 
+/*         @include center; 
+        flex-direction: row; */
+        display: flex;
         flex-direction: row;
 
         &__box {

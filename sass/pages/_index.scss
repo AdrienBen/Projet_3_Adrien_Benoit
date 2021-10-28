@@ -1,10 +1,15 @@
 .fonction {
     display: flex;
     flex-direction: column;
+    background-color: $header-background;
 
 & h2 {
     text-align: left;
     padding-left: 10px;
+    }
+
+    &__icon {
+        margin: 10px
     }
 
     &__box {
@@ -60,6 +65,7 @@
 .restaurants__title {
     margin-left: 15px;
     padding-top: 15px;
+    margin-top: 0px;
 }
 
 .restaurants-container {
@@ -71,6 +77,8 @@
         border-radius: 15px;
         margin-bottom: 50px;
         height: 240px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     &__box:hover {
