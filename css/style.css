@@ -296,7 +296,7 @@
 }
 @keyframes heart-disappear {
   0% {
-    clip-path: circle 0%;
+    clip-path: circle(0%);
   }
   100% {
     visibility: visible;
